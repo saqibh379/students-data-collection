@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Submission Form</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input, textarea { width: 100%; padding: 10px; margin: 8px 0; }
+    button { padding: 10px 20px; background: #2b6cb0; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h2>Student Info Form</h2>
+  <form id="studentForm">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="text" name="studentID" placeholder="Student ID" required />
+    <textarea name="groupMembers" placeholder="Group Members (comma separated)" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="message"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
